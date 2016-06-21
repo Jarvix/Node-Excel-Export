@@ -31,6 +31,7 @@ describe('Simple Excel xlsx Export', function() {
 			var fs = require('fs');
 			fs.writeFileSync('single.xlsx', result, 'binary');
 		});
+
 		it('returns multisheet xlsx', function() {
 			var confs = [];
 			var conf = {};
